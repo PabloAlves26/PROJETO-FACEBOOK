@@ -1,0 +1,82 @@
+ img {
+     position: absolute;
+    float: left;
+    margin-top: 0px; /*Controla o posicionamento da imagem*/
+    margin-left: 160px;
+}
+.email {           /*Controla o posicionamento do formulario email*/
+    position: relative;
+    margin-top: -10px;
+    margin-left: 1000px;
+    padding-top: 20px;
+}
+.senha {           /*Controla o posicionamento do formulario senha*/
+    position: relative;
+    margin-top: -46px;
+    margin-left: 1200px;
+}
+img {             /*Controla as dimensões da imagem*/
+    width: 250px;
+    height: 100px;
+}
+.cabecalho {      /*Controla as dimensões do cabeçalho-faixa azul*/
+    position: relative;
+    background: rgb(77, 111, 165);
+    height: 100px;
+    width: 1550px;
+    margin-top: -20px;
+    margin-left: -200px;
+}
+.formulario {     /*Controla a cor da fonte do formulario*/
+    position: relative;
+    color: rgb(243, 233, 233);
+    
+}
+.enviar {         /*Especificações do botao enviar*/
+    margin-left: 10px;
+    color: white;
+    background-color: rgb(96,96,202);
+
+    box-shadow: 0 3px 3px 0px rgb(18, 59, 87);
+
+}
+.enviar:hover {
+    transform: scale(1.2);
+}
+body {
+    background-color: rgb(247, 230, 230)
+}
+h1 {
+    color:  rgb(61, 61, 112);
+    font-size: 3.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 230px;
+    margin-left: 20px;
+}
+h2 {               /*Especificação de texto descritivo*/
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:-250px;
+    margin-right: 50px;
+    color:  rgb(61, 61, 112);
+}
+.enviar2 {        /*Especificações do Botão Criar Conta. class: enviar2*/
+    background-color: green;
+    color: rgb(239, 243, 245);
+    width: 200px;
+    height: 50px;
+    font-size: 1.4em;
+    margin-left: 870px;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border-radius: 10px;
+    box-shadow: 0 3px 3px 0px rgb(43, 43, 49)
+}
+.enviar2:hover {      /*Efeitos do bão Criar Conta*/
+    box-shadow: 0 0 10px rgb(8, 0, 0);
+    transition: box-shadow 0.4s;
+    transform: scale (40px, -20px);
+}
